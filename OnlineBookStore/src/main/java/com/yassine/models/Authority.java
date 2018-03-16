@@ -6,7 +6,6 @@ import org.springframework.security.core.GrantedAuthority;
  * Created by Yassine.
  */
 public class Authority implements GrantedAuthority{
-
 	private static final long serialVersionUID = 98751L;
 	private final String authority;
 

@@ -23,7 +23,6 @@ import com.yassine.models.UserRole;
 
 @Entity
 public class User implements Serializable, UserDetails{
-
 	private static final long serialVersionUID = 98877L;
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
